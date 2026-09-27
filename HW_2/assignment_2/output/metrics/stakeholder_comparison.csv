@@ -1,0 +1,5 @@
+Stakeholder,Formula,Late Rate (%)
+VP Operations (Delivered),delay > 0m on observed delivered,56.39
+Support Lead (Actionable SLA),delay > 10m on observed delivered,23.34
+VP Operations (All Orders),"delay > 0m on 1,600 population",52.69
+Finance (Settled Revenue),Delivered orders only,56.39

@@ -1,0 +1,242 @@
+[
+  {
+    "order_id": "O00051",
+    "reason": "pickup_timestamp_after_actual_delivery",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00051",
+      "customer_id": "C0875",
+      "restaurant_id": "R039",
+      "driver_id": "D058",
+      "city": "Bengaluru",
+      "created_at": "2026-08-01T15:09:00",
+      "promised_eta": "2026-08-01T16:28:30.928528",
+      "pickup_at": "2026-08-01T16:24:51.495665",
+      "actual_delivery_at": "2026-08-01T16:19:51.495665",
+      "final_status": "delivered",
+      "distance_km_estimate": 15.2,
+      "traffic_bucket": "severe",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00052",
+    "reason": "pickup_timestamp_after_actual_delivery",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00052",
+      "customer_id": "C0610",
+      "restaurant_id": "R055",
+      "driver_id": "D086",
+      "city": "Bengaluru",
+      "created_at": "2026-08-24T17:07:00",
+      "promised_eta": "2026-08-24T18:26:48",
+      "pickup_at": "2026-08-24T18:16:16.946011",
+      "actual_delivery_at": "2026-08-24T18:11:16.946011",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "high",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00053",
+    "reason": "pickup_timestamp_after_actual_delivery",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00053",
+      "customer_id": "C0797",
+      "restaurant_id": "R030",
+      "driver_id": "D028",
+      "city": "Bengaluru",
+      "created_at": "2026-08-13T17:06:00",
+      "promised_eta": "2026-08-13T17:58:50.809718",
+      "pickup_at": "2026-08-13T18:25:53.797613",
+      "actual_delivery_at": "2026-08-13T18:20:53.797613",
+      "final_status": "delivered",
+      "distance_km_estimate": 5.97,
+      "traffic_bucket": "medium",
+      "weather_bucket": "rain"
+    }
+  },
+  {
+    "order_id": "O00054",
+    "reason": "pickup_timestamp_after_actual_delivery",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00054",
+      "customer_id": "C0270",
+      "restaurant_id": "R002",
+      "driver_id": "D113",
+      "city": "Bengaluru",
+      "created_at": "2026-08-28T19:56:00",
+      "promised_eta": "2026-08-28T21:15:48",
+      "pickup_at": "2026-08-28T21:25:10.582862",
+      "actual_delivery_at": "2026-08-28T21:20:10.582862",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "high",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00055",
+    "reason": "pickup_timestamp_after_actual_delivery",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00055",
+      "customer_id": "C0511",
+      "restaurant_id": "R049",
+      "driver_id": "D030",
+      "city": "Bengaluru",
+      "created_at": "2026-08-16T12:53:00",
+      "promised_eta": "2026-08-16T14:05:48",
+      "pickup_at": "2026-08-16T14:08:05.645770",
+      "actual_delivery_at": "2026-08-16T14:03:05.645770",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "low",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00101",
+    "reason": "promised_eta_prior_to_created_at",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00101",
+      "customer_id": "C0538",
+      "restaurant_id": "R007",
+      "driver_id": "D111",
+      "city": "Bengaluru",
+      "created_at": "2026-08-24T20:59:00",
+      "promised_eta": "2026-08-24T20:49:00",
+      "pickup_at": "2026-08-24T21:25:03.983984",
+      "actual_delivery_at": "2026-08-24T22:14:30.685278",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "low",
+      "weather_bucket": "rain"
+    }
+  },
+  {
+    "order_id": "O00102",
+    "reason": "promised_eta_prior_to_created_at",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00102",
+      "customer_id": "C0263",
+      "restaurant_id": "R004",
+      "driver_id": "D056",
+      "city": "Bengaluru",
+      "created_at": "2026-08-11T16:41:00",
+      "promised_eta": "2026-08-11T16:31:00",
+      "pickup_at": "2026-08-11T17:05:05.809584",
+      "actual_delivery_at": "2026-08-11T17:57:17.661772",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "medium",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00103",
+    "reason": "promised_eta_prior_to_created_at",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00103",
+      "customer_id": "C0389",
+      "restaurant_id": "R020",
+      "driver_id": "D098",
+      "city": "Bengaluru",
+      "created_at": "2026-08-22T20:11:00",
+      "promised_eta": "2026-08-22T20:01:00",
+      "pickup_at": "2026-08-22T20:39:45.064627",
+      "actual_delivery_at": "2026-08-22T21:10:17.342305",
+      "final_status": "delivered",
+      "distance_km_estimate": 6.87,
+      "traffic_bucket": "high",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00104",
+    "reason": "promised_eta_prior_to_created_at",
+    "severity": "FAIL",
+    "record_payload": {
+      "order_id": "O00104",
+      "customer_id": "C0436",
+      "restaurant_id": "R031",
+      "driver_id": "D055",
+      "city": "Bengaluru",
+      "created_at": "2026-08-09T22:19:00",
+      "promised_eta": "2026-08-09T22:09:00",
+      "pickup_at": "2026-08-09T22:47:33.934776",
+      "actual_delivery_at": "2026-08-09T23:36:20.740161",
+      "final_status": "delivered",
+      "distance_km_estimate": 17.69,
+      "traffic_bucket": "medium",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00120",
+    "reason": "duplicate_primary_key",
+    "severity": "WARN",
+    "record_payload": {
+      "order_id": "O00120",
+      "customer_id": "C0501",
+      "restaurant_id": "R040",
+      "driver_id": "D045",
+      "city": "Bengaluru",
+      "created_at": "2026-08-13T18:15:00",
+      "promised_eta": "2026-08-13T19:40:24",
+      "pickup_at": "2026-08-13T18:29:08.055622",
+      "actual_delivery_at": "2026-08-13T19:34:08.431508",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "medium",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O00723",
+    "reason": "duplicate_primary_key",
+    "severity": "WARN",
+    "record_payload": {
+      "order_id": "O00723",
+      "customer_id": "C0467",
+      "restaurant_id": "R028",
+      "driver_id": "D068",
+      "city": "Bengaluru",
+      "created_at": "2026-08-05T21:04:00",
+      "promised_eta": "2026-08-05T22:19:36",
+      "pickup_at": "2026-08-05T21:15:24.433874",
+      "actual_delivery_at": "2026-08-05T22:04:30.928322",
+      "final_status": "delivered",
+      "distance_km_estimate": 18.0,
+      "traffic_bucket": "high",
+      "weather_bucket": "clear"
+    }
+  },
+  {
+    "order_id": "O01302",
+    "reason": "duplicate_primary_key",
+    "severity": "WARN",
+    "record_payload": {
+      "order_id": "O01302",
+      "customer_id": "C0116",
+      "restaurant_id": "R010",
+      "driver_id": "D088",
+      "city": "Bengaluru",
+      "created_at": "2026-08-26T21:07:00",
+      "promised_eta": "2026-08-26T22:15:50.273095",
+      "pickup_at": "2026-08-26T21:35:26.474087",
+      "actual_delivery_at": "2026-08-26T22:20:27.428561",
+      "final_status": "delivered",
+      "distance_km_estimate": 14.78,
+      "traffic_bucket": "high",
+      "weather_bucket": "clear"
+    }
+  }
+]

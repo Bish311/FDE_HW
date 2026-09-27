@@ -1,0 +1,11 @@
+Metric,Value
+total_orders,1600
+delivered_orders_observed,1495
+unrecorded_deliveries,37
+cancelled_orders,68
+leadership_late_rate_percent,56.39
+support_operational_late_rate_percent,23.34
+severe_delay_rate_percent,8.23
+customer_escalation_rate_percent,8.62
+proactive_intervention_rate_percent,26.88
+order_cancellation_rate_percent,4.25

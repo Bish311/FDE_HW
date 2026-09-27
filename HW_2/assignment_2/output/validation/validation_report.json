@@ -1,0 +1,46 @@
+{
+  "verdict": {
+    "business_grain": "WARN",
+    "timestamp_chronology": "FAIL",
+    "kpi_definition": "FAIL",
+    "category_semantics": "WARN",
+    "cross_source_mapping": "WARN",
+    "freshness": "FAIL",
+    "publish_56_percent": "FAIL"
+  },
+  "contract_statistics": {
+    "raw_count": 1603,
+    "duplicates": 3,
+    "inverted_prometa": 4,
+    "pickup_after_delivery": 5,
+    "null_delivered": 37
+  },
+  "freshness_statistics": {
+    "status_rows": 502,
+    "unique_orders_covered": 500,
+    "coverage_percent": 31.25,
+    "stale_updates_after_pickup": 166
+  },
+  "stakeholder_comparison": [
+    {
+      "stakeholder": "VP Operations (Delivered)",
+      "formula": "delay > 0m on observed delivered",
+      "rate": 56.39
+    },
+    {
+      "stakeholder": "Support Lead (Actionable SLA)",
+      "formula": "delay > 10m on observed delivered",
+      "rate": 23.34
+    },
+    {
+      "stakeholder": "VP Operations (All Orders)",
+      "formula": "delay > 0m on 1,600 population",
+      "rate": 52.69
+    },
+    {
+      "stakeholder": "Finance (Settled Revenue)",
+      "formula": "Delivered orders only",
+      "rate": 56.39
+    }
+  ]
+}
