@@ -1,0 +1,43 @@
+[
+  {
+    "timestamp": "2026-10-11T14:17:16.931490+00:00",
+    "request_id": "REQ-1006",
+    "reviewer": "Bish",
+    "action": "accept",
+    "justification": "cc",
+    "decision_summary": {
+      "recommendation": "Do not approve yet: the request lists no cost, and NeuralDesk Business already exists in the General AI category. The vendor is approved, but the budget check reflects a $0.00 requested cost.",
+      "risk_flags": [
+        "missing_information",
+        "existing_tool_overlap",
+        "prompt_injection_detected"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-10-11T14:18:56.082853+00:00",
+    "request_id": "REQ-1001",
+    "reviewer": "Bish",
+    "action": "override",
+    "justification": "dd",
+    "decision_summary": {
+      "recommendation": "The $800 request is within Finance\u2019s available budget, and SignFlow is an approved vendor with an approved risk assessment. Because an existing e-signature overlap is flagged, proceed only after the required manager review confirms the add-on is needed.",
+      "risk_flags": [
+        "existing_tool_overlap"
+      ]
+    }
+  },
+  {
+    "timestamp": "2026-10-11T14:21:15.807978+00:00",
+    "request_id": "REQ-1008",
+    "reviewer": "Bish",
+    "action": "accept",
+    "justification": "kk",
+    "decision_summary": {
+      "recommendation": "The $8,000 request is within Marketing\u2019s available $15,000 software budget, and TaskFlow is registered and assessed as approved. However, an existing project-management tool overlap was found, so review the overlap before proceeding.",
+      "risk_flags": [
+        "existing_tool_overlap"
+      ]
+    }
+  }
+]
